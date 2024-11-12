@@ -1,0 +1,22 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "title": "Learning Flutter",
+      "body": "Flutter is an open-source UI software development kit created by Google for building natively compiled applications.",
+      "author": "Jane Smith"
+    },
+    {
+      "id": 2,
+      "title": "React Fundamentals",
+      "body": "React is a JavaScript library for building user interfaces. It's based on components, which are the building blocks of your app.",
+      "author": "Alice Brown"
+    },
+    {
+      "id": 3,
+      "title": "Node.js for Beginners",
+      "body": "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine, designed to build scalable network applications.",
+      "author": "Bob Johnson"
+    }
+  ]
+}
