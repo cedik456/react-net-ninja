@@ -129,3 +129,20 @@ picture {
   color: #f1356d;
   margin-bottom: 8px;
 }
+
+.blog-details h1 {
+  margin-bottom: 10px;
+}
+
+.blog-details span {
+  color: #f1356d;
+}
+
+.blog-details div {
+  margin: 20px 0;
+}
+
+article {
+  color: rgb(53, 50, 50);
+  font-weight: 400;
+}
