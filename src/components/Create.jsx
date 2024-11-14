@@ -5,10 +5,16 @@ function Create() {
   const [body, setBody] = useState("");
   const [author, setAuthor] = useState("jane"); // should have a default value when using select (option)
 
+  const submitForm = (e) => {
+    e.preventDefault();
+    const contents = { title, body, author };
+    console.log(contents);
+  };
+
   return (
     <div className="create-blog">
       <h2>Add a New Blog</h2>
-      <form>
+      <form onSubmit={submitForm}>
         <label>Blog Title:</label>
         <input
           value={title}
