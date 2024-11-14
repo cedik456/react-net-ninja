@@ -112,6 +112,10 @@ picture {
   border-bottom: 1px solid #fafafa;
 }
 
+.blog-preview a {
+  text-decoration: none;
+}
+
 .blog-preview p {
   color: rgb(129, 125, 125);
 }
