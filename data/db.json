@@ -7,12 +7,6 @@
       "author": "charles"
     },
     {
-      "id": "2",
-      "title": "React Fundamentals",
-      "body": "React is a popular JavaScript library for building user interfaces, particularly for creating dynamic, single-page applications. It is based on a component-driven architecture, where the user interface is broken down into reusable and self-contained components that manage their own state and rendering logic. These components can be combined to form complex UIs, making development more modular and maintainable. React uses a virtual DOM to efficiently update and render only the components that have changed, improving performance, especially in large applications. With its declarative syntax, React simplifies the process of building interactive UIs by allowing developers to describe how the UI should look at any given point in time. The flexibility of React enables developers to create everything from simple websites to complex, real-time applications, and its large ecosystem of libraries and tools provides solutions for routing, state management, and more, making it a powerful choice for modern web development.",
-      "author": "mark"
-    },
-    {
       "id": "3",
       "title": "Node.js for Beginners",
       "body": "Node.js is a powerful JavaScript runtime built on Chrome's V8 JavaScript engine, designed to enable the development of scalable and high-performance network applications. Unlike traditional server-side frameworks, Node.js allows developers to use JavaScript on both the client and server sides, making it a full-stack solution for building web applications. It uses an event-driven, non-blocking I/O model, which makes it highly efficient and suitable for handling numerous concurrent connections with minimal overhead. Node.js is particularly well-suited for building real-time applications, APIs, and microservices due to its lightweight nature and the ability to handle asynchronous operations. Its vast ecosystem of npm (Node Package Manager) provides access to thousands of libraries and modules, allowing developers to extend functionality quickly. Whether building data-intensive real-time applications or lightweight microservices, Node.js offers a versatile and scalable platform for modern web development.",
