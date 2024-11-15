@@ -4,11 +4,25 @@ function Create() {
   const [title, setTitle] = useState("");
   const [body, setBody] = useState("");
   const [author, setAuthor] = useState("jane"); // should have a default value when using select (option)
+  const [isPending, setIsPending] = useState(false);
 
   const submitForm = (e) => {
     e.preventDefault();
+    setIsPending(true);
     const contents = { title, body, author };
-    console.log(contents);
+
+    setTimeout(() => {
+      fetch("http://localhost:8000/blogs", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(contents),
+      }).then(() => {
+        console.log("Blog Added!");
+        setIsPending(false);
+      });
+    }, 2000);
   };
 
   return (
@@ -32,12 +46,13 @@ function Create() {
 
         <label>Author:</label>
         <select value={author} onChange={(e) => setAuthor(e.target.value)}>
-          <option value="jane">Jane Smith</option>
-          <option value="alice">Alice Brown</option>
-          <option value="bob">Bob Johnson</option>
+          <option value="james">james</option>
+          <option value="mark">mark</option>
+          <option value="charles">charles</option>
         </select>
 
-        <button>Add Blog</button>
+        {!isPending && <button>Add Blog</button>}
+        {isPending && <button disabled>Adding Blog...</button>}
       </form>
     </div>
   );

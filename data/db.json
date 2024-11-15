@@ -1,22 +1,178 @@
 {
   "blogs": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Learning Flutter",
       "body": " Flutter is an open-source UI software development kit (SDK) created by Google that empowers developers to build natively compiled applications for a wide range of platforms, including iOS, Android, web, and desktop, all from a single codebase. Built around the Dart programming language, Flutter facilitates fast development with features like hot reload, allowing developers to see real-time changes in their code without rebuilding the entire application. This significantly enhances productivity, especially during the development and debugging stages. Flutter's extensive collection of pre-designed, highly customizable widgets makes it easy to create visually stunning, responsive user interfaces that maintain high performance across different platforms. The framework also provides tools for testing, compiling, and deploying applications efficiently, ensuring that apps feel native and deliver optimal performance, regardless of the platform. By minimizing code duplication and offering a unified development approach, Flutter enables developers to save both time and effort, making it an ideal choice for building scalable, cross-platform applications with a consistent user experience.",
-      "author": "Jane Smith"
+      "author": "charles"
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "React Fundamentals",
       "body": "React is a popular JavaScript library for building user interfaces, particularly for creating dynamic, single-page applications. It is based on a component-driven architecture, where the user interface is broken down into reusable and self-contained components that manage their own state and rendering logic. These components can be combined to form complex UIs, making development more modular and maintainable. React uses a virtual DOM to efficiently update and render only the components that have changed, improving performance, especially in large applications. With its declarative syntax, React simplifies the process of building interactive UIs by allowing developers to describe how the UI should look at any given point in time. The flexibility of React enables developers to create everything from simple websites to complex, real-time applications, and its large ecosystem of libraries and tools provides solutions for routing, state management, and more, making it a powerful choice for modern web development.",
-      "author": "Alice Brown"
+      "author": "mark"
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "Node.js for Beginners",
       "body": "Node.js is a powerful JavaScript runtime built on Chrome's V8 JavaScript engine, designed to enable the development of scalable and high-performance network applications. Unlike traditional server-side frameworks, Node.js allows developers to use JavaScript on both the client and server sides, making it a full-stack solution for building web applications. It uses an event-driven, non-blocking I/O model, which makes it highly efficient and suitable for handling numerous concurrent connections with minimal overhead. Node.js is particularly well-suited for building real-time applications, APIs, and microservices due to its lightweight nature and the ability to handle asynchronous operations. Its vast ecosystem of npm (Node Package Manager) provides access to thousands of libraries and modules, allowing developers to extend functionality quickly. Whether building data-intensive real-time applications or lightweight microservices, Node.js offers a versatile and scalable platform for modern web development.",
-      "author": "Bob Johnson"
+      "author": "james"
+    },
+    {
+      "id": "0eb4",
+      "title": "Firebase Tutorials",
+      "body": "Firebase is a comprehensive platform for building and managing mobile and web applications. It provides various services, including real-time databases, user authentication, cloud storage, and analytics. Firebase simplifies backend development by offering easy-to-use SDKs, enabling developers to focus on building features rather than managing infrastructure. It also supports scalability, security, and real-time data syncing, making it ideal for modern app development.",
+      "author": "bob"
+    },
+    {
+      "id": "a116",
+      "title": "TypeScript 101",
+      "body": "TypeScript is a programming language developed by Microsoft that builds on JavaScript by adding static typing. With TypeScript, developers can catch errors early, as types are checked at compile time, improving code quality and readability. It’s especially popular in large codebases, where its type safety and auto-completion enhance productivity. TypeScript is fully compatible with JavaScript, meaning developers can gradually adopt it in existing projects. Popular in frameworks like Angular and React, it enables scalable, maintainable code, making it a preferred choice for modern web development.",
+      "author": "alice"
+    },
+    {
+      "id": "9a3d",
+      "title": "asda",
+      "body": "asda",
+      "author": "charles"
+    },
+    {
+      "id": "9231",
+      "title": "ASDA",
+      "body": "ASD",
+      "author": "charles"
+    },
+    {
+      "id": "b910",
+      "title": "ASDASDA",
+      "body": "ASDASDASDADA",
+      "author": "mark"
+    },
+    {
+      "id": "75a0",
+      "title": "ASDASDA",
+      "body": "ASDASDASDADA",
+      "author": "mark"
+    },
+    {
+      "id": "5b30",
+      "title": "ASDASDA",
+      "body": "SADAS",
+      "author": "mark"
+    },
+    {
+      "id": "f236",
+      "title": "asdasdassa",
+      "body": "dasdasdasd",
+      "author": "mark"
+    },
+    {
+      "id": "41ad",
+      "title": "OMG",
+      "body": "ASDAHSHAHASHHAS",
+      "author": "mark"
+    },
+    {
+      "id": "b0b2",
+      "title": "OMG",
+      "body": "ASDAHSHAHASHHAS",
+      "author": "mark"
+    },
+    {
+      "id": "d0eb",
+      "title": "OMG",
+      "body": "ASDAHSHAHASHHAS",
+      "author": "mark"
+    },
+    {
+      "id": "4e08",
+      "title": "asdasda",
+      "body": "sadasdasdasda",
+      "author": "mark"
+    },
+    {
+      "id": "43d2",
+      "title": "adasda",
+      "body": "dsadadas",
+      "author": "mark"
+    },
+    {
+      "id": "8a13",
+      "title": "adasda",
+      "body": "dsadadas",
+      "author": "mark"
+    },
+    {
+      "id": "a054",
+      "title": "adasda",
+      "body": "dsadadas",
+      "author": "mark"
+    },
+    {
+      "id": "7a18",
+      "title": "adasda",
+      "body": "dsadadas",
+      "author": "mark"
+    },
+    {
+      "id": "66c5",
+      "title": "adasda",
+      "body": "dsadadas",
+      "author": "mark"
+    },
+    {
+      "id": "b20f",
+      "title": "adasda",
+      "body": "dsadadas",
+      "author": "mark"
+    },
+    {
+      "id": "f10c",
+      "title": "adasda",
+      "body": "dsadadas",
+      "author": "mark"
+    },
+    {
+      "id": "a783",
+      "title": "adasda",
+      "body": "dsadadas",
+      "author": "mark"
+    },
+    {
+      "id": "054e",
+      "title": "adasda",
+      "body": "dsadadas",
+      "author": "mark"
+    },
+    {
+      "id": "edd2",
+      "title": "adasda",
+      "body": "dsadadas",
+      "author": "mark"
+    },
+    {
+      "id": "e6b6",
+      "title": "adasda",
+      "body": "dsadadas",
+      "author": "mark"
+    },
+    {
+      "id": "933d",
+      "title": "adasda",
+      "body": "dsadadas",
+      "author": "mark"
+    },
+    {
+      "id": "622b",
+      "title": "adasda",
+      "body": "dsadadas",
+      "author": "mark"
+    },
+    {
+      "id": "2ff5",
+      "title": "asdasda",
+      "body": "asdadsa",
+      "author": "jane"
     }
   ]
 }
