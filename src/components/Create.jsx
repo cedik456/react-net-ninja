@@ -1,10 +1,12 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 function Create() {
   const [title, setTitle] = useState("");
   const [body, setBody] = useState("");
   const [author, setAuthor] = useState("jane"); // should have a default value when using select (option)
   const [isPending, setIsPending] = useState(false);
+  const navigate = useNavigate();
 
   const submitForm = (e) => {
     e.preventDefault();
@@ -21,6 +23,7 @@ function Create() {
       }).then(() => {
         console.log("Blog Added!");
         setIsPending(false);
+        navigate("/");
       });
     }, 2000);
   };
